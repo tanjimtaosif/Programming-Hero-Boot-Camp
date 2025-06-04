@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <style>
+        #banner {
+            background-color: blanchedalmond;
+            background-image: url("image/food2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* margiin,padding,border,width, height */
+            /* Box Model style */
+            margin-top: 80px;
+            margin-left: 80px;
+            margin-bottom: 80px;
+            margin-right: 80px;
+            padding: 100px;
+            border-color: rgb(117, 1, 1);
+            border-style: solid;
+            border-width: 7px;
+            /* width: 400px;
+            height: 600px; */
+        }
+
+        button {
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-width: 0px;
+            background-color: cadetblue;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: aqua;
+        }
+        #my-img{
+            width: 450px;
+            height: 450px;
+            object-fit: cover;
+        }
+        #img-box{
+            text-align: center;
+        }
+        #msg{
+            background-color: rgb(233, 211, 211);
+            border-radius: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="banner">
+        <h1>This is my banner</h1>
+        <p id="msg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis veniam molestias aliquid harum, amet nostrum cum at eaque dolor perferendis, commodi corrupti temporibus, voluptate necessitatibus odit tenetur? Assumenda nobis magni aliquid, exercitationem id ipsum ab, corporis voluptate, sapiente iusto minima?</p>
+        <button>Click Me</button>
+    </div>
+    <div id="img-box">
+        <img id="my-img" src="image/food.jpg" alt="">
+    </div>
+</body>
+
+</html>

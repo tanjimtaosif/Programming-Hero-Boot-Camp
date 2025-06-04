@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learn CSS</title>
+    <!--  Internal CSS -->
+    <style> 
+        p{
+            color: #013601;
+            background-color: antiquewhite;
+            width: 35%;
+            height: 100px;
+        }
+        /* CSS using Id */
+        #special{
+            color: blue;
+        }
+        .blue{
+            color: blueviolet;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+        span{
+            color: red;
+        }
+        .underline span{
+            color: rgb(3, 61, 27);
+        }
+        h1,h2 {
+            background-color: bisque;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1 style="color:rgb(rgb(68, 1, 1));">We will learn css today</h1>
+    <p id="special">CSS stands for Cascading Style Sheets</p>
+    <p class="blue underline">CSS describes how HTML elements are to be 
+    <span>displayed on screen, paper, or in other media</span></p>
+    <p class="blue">CSS describes how HTML elements are to be displayed on screen, 
+        <span>paper, or in other media</span></p>
+    <h2>What we will learn today</h2>
+    <ul>
+        <li>CSS</li>
+        <li>Styling</li>
+        <li class="blue underline">Box MOdeling</li>
+        <li>CSS</li>
+    </ul>
+
 </body>
 </html>
