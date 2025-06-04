@@ -63,13 +63,10 @@ body {
     margin-right: 20px;
 }
 
-.xpbtn {
-    background-color: #872bff;
-    border-radius: 30px;
-    padding: 16px 32px;
-    color: white;
-    cursor: pointer;
-    margin-right: 20px;
+.explore {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .btn-white {
