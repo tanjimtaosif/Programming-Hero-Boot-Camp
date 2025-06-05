@@ -67,6 +67,7 @@ body {
     text-align: center;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 120px;
 }
 
 .btn-white {
@@ -92,7 +93,7 @@ body {
 
 .heading {
     text-align: center;
-
+    margin-bottom: 60px;
 }
 
 .heading h4 {
@@ -163,4 +164,34 @@ body {
     background-color: white;
     padding: 40px;
     border-radius: 15px;
+}
+
+.review-container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+    width: 87.5%;
+    margin: 0px auto 60px auto;
+    text-align: center;
+}
+
+.review-container {
+    background-image: url(images/star-reviews.png);
+    background-position: 97% 145px;
+    background-repeat: no-repeat;
+}
+
+.customer h2 {
+    margin-bottom: 10px;
+}
+
+.customer p {
+    color: #a8a8a8;
+}
+
+.customer-review-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
 }
