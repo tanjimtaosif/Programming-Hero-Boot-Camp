@@ -2,11 +2,16 @@
     font-family: "Plus Jakarta Sans", sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
     background-image: linear-gradient(#FFFFFF, #EBDCFF);
+}
+
+img {
+    width: 100%;
 }
 
 .banner {
@@ -32,6 +37,10 @@ body {
 }
 
 .banner-content {
+    width: 50%;
+}
+
+.banner-image {
     width: 50%;
 }
 
@@ -80,12 +89,11 @@ body {
     margin-right: 20px;
 }
 
-.banner-image {
-    width: 600px;
-}
+
 
 .service,
-.story-card , .country{
+.story-card,
+.country {
     width: 87.5%;
     margin: 0px auto 120px auto;
 }
@@ -120,12 +128,13 @@ body {
     background-color: white;
     padding: 20px 60px;
     text-align: center;
-    width: 300px;
+    max-width: 300px;
     border-radius: 30px;
 }
 
 .service-card img {
     margin-bottom: 30px;
+    width: 80px;
 }
 
 .service-card h2 {
@@ -146,23 +155,37 @@ body {
     gap: 20px;
 }
 
+.story-content{
+    width: 60%;
+}
+
+.story-image{
+    width: 40%;
+}
+.story-content img {
+    width: 100px;
+}
+
 .story-content h2,
 .story-content img,
 .story-content p {
     margin-bottom: 30px;
 }
-.country-card{
+
+.country-card {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
-  
+
 }
-.country-card h2{
+
+.country-card h2 {
     background-color: white;
-      padding: 40px;
-      border-radius: 30px;
+    padding: 40px;
+    border-radius: 30px;
 }
+
 .review-container {
     background-color: white;
     border-radius: 30px;
@@ -197,7 +220,7 @@ body {
     background-color: white;
 }
 
-.footer{
+.footer {
     background-color: white;
     padding: 5px;
     margin-left: 60px;
@@ -205,9 +228,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .footer img {
     padding: 15px;
 }
-.copy-right{
+
+.copy-right {
     padding-top: 20px;
 }
