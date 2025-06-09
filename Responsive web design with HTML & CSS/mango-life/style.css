@@ -10,11 +10,20 @@
     padding: 40px;
     font-size: 100px;
 }
-
-@media screen and (max-width: 600px) {
+/* Tablet */
+/* 0-992 */
+@media screen and (max-width: 992px) {
     #mango {
         background: linear-gradient(150deg, green, yellowgreen);
         font-size: 80px;
     }
 
+}
+/* Mobile device */
+/* 0-576 */
+@media screen and (max-width: 576px) {
+    #mango {
+        background: linear-gradient(150deg, green, rgb(160, 255, 157));
+        font-size: 60px;
+    }
 }
