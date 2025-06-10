@@ -10,10 +10,6 @@ body {
     background-image: linear-gradient(#FFFFFF, #EBDCFF);
 }
 
-img {
-    width: 100%;
-}
-
 .banner {
     /* background-color: bisque; */
     /* margin-top: 100px;
@@ -40,8 +36,16 @@ img {
     width: 50%;
 }
 
-.banner-image {
-    width: 50%;
+.banner-image img {
+    width: 100%;
+}
+
+.service-container img {
+    width: 100%;
+}
+
+.story-container {
+    width: 100%;
 }
 
 .banner-content * {
@@ -155,13 +159,14 @@ img {
     gap: 20px;
 }
 
-.story-content{
+.story-content {
     width: 60%;
 }
 
-.story-image{
+.story-image {
     width: 40%;
 }
+
 .story-content img {
     width: 100px;
 }
@@ -227,6 +232,7 @@ img {
     margin-right: 60px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .footer img {
@@ -235,4 +241,5 @@ img {
 
 .copy-right {
     padding-top: 20px;
+    color: #a8a8a8;
 }

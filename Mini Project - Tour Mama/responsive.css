@@ -13,6 +13,14 @@
         object-fit: cover;
         border-radius: 30px;
     }
+
+    .review-container {
+        background-position: 97% 185px;
+    }
+
+    .footer img {
+        width: fit-content;
+    }
 }
 
 /* tablet */
@@ -50,6 +58,15 @@
     .story-image {
         width: 100%;
     }
+
+    .review-container {
+        background-position: center 350px;
+
+    }
+
+    .customer-review-container {
+        padding-bottom: 60px;
+    }
 }
 
 /* mobile (425px-640px)*/
@@ -79,5 +96,27 @@
         flex-direction: column;
         text-align: center;
 
+    }
+
+    .review-container {
+        background-size: 50%;
+        background-position: center 500px;
+    }
+
+    .customer-review-container {
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        flex-direction: column;
+        font-size: small;
+    }
+
+    .customer h2 {
+        font-size: 20px;
+    }
+
+    .customer p {
+        font-size: 15px;
     }
 }
