@@ -1,0 +1,122 @@
+/* laptop */
+@media screen and (max-width: 1200px) {
+    .banner-content h1 {
+        font-size: 48px;
+    }
+
+    .service-card {
+        padding: 80px 20px;
+    }
+
+    .story-image img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .review-container {
+        background-position: 97% 185px;
+    }
+
+    .footer img {
+        width: fit-content;
+    }
+}
+
+/* tablet */
+@media screen and (max-width:1024px) {
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .service-card-container {
+        flex-direction: column;
+
+    }
+
+    .service-card {
+        max-width: 100%;
+    }
+
+    .story-card {
+        flex-direction: column;
+    }
+
+    .story-content {
+        width: 100%;
+    }
+
+    .story-image {
+        width: 100%;
+    }
+
+    .review-container {
+        background-position: center 350px;
+
+    }
+
+    .customer-review-container {
+        padding-bottom: 60px;
+    }
+}
+
+/* mobile (425px-640px)*/
+@media screen and (max-width:640px) {
+    .btn {
+        padding: 12px 20px;
+    }
+
+    .btn-white {
+        padding: 12px 20px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    .heading h2 {
+        font-size: 32px;
+
+    }
+
+    .country-card {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .review-container {
+        background-size: 50%;
+        background-position: center 500px;
+    }
+
+    .customer-review-container {
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        flex-direction: column;
+        font-size: small;
+    }
+
+    .customer h2 {
+        font-size: 20px;
+    }
+
+    .customer p {
+        font-size: 15px;
+    }
+}
