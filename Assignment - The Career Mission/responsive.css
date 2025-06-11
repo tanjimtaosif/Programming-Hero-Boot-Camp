@@ -21,7 +21,7 @@
     .hope p,
     .webdev p,
     .discuss p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .webdev h1 {
@@ -122,7 +122,7 @@
     }
 }
 
-/* For Mobile 640px and below */
+/* For Mobile 425-640 */
 @media screen and (max-width: 640px) {
     .header {
         gap: 16px;
@@ -150,6 +150,7 @@
     .webdev {
         width: 100%;
         padding: 0 10px;
+
     }
 
     .webdev h1 {
