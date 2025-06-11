@@ -1,0 +1,225 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#E6E6FA, #B8E7FA);
+}
+
+.header-container {
+    background-color: #FFFFFF60;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Top, Right, Bottom, Left (adjusted for Figma padding) */
+    padding: 24px 0px 24px 0px;
+    margin: 0px auto 100px auto;
+    width: 87.5%;
+}
+
+.head h1 {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.head span {
+    color: #FFA500;
+}
+
+.btn {
+    padding: 16px 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #FFA500, #FFD447);
+    font-size: 20px;
+    border-radius: 10px;
+    opacity: 80%;
+    border: 0px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    background-image:linear-gradient(to right, #6d90b9, #bbc7dc) ;
+    color: white;
+}
+
+.connect-container {
+    border-radius: 16px;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto 100px auto;
+    padding: 40px 60px;
+    width: 87.5%;
+    border-radius: 16px;
+    background-color: #E6EDF9;
+}
+
+.developer-icon {
+    margin-bottom: 32px;
+}
+
+.hope-container {
+    width: 79.16%;
+    margin: auto auto;
+}
+
+.hope h1 {
+    margin-bottom: 24px;
+    font-size: 48px;
+}
+
+.hope p {
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.webdev {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 48px;
+    margin: 0px auto 48px auto;
+    width: 852px;
+}
+
+.webdev h1 {
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+.webdev p {
+    font-size: 16px;
+    font-family: "Azeret Mono";
+    margin-bottom: 48px;
+    opacity: 70%;
+}
+
+.discuss-container {
+    display: flex;
+    align-items: center;
+    margin: 0px auto 100px auto;
+    padding: 48px 48px;
+    width: 87.5%;
+    border-radius: 16px;
+    background-color: #E6EDF9;
+    justify-content: space-between
+}
+
+.discuss h2,
+.discuss p {
+    margin-bottom: 32px;
+    opacity: 70%;
+}
+
+.inspiration-container {
+    width: 76.39%;
+    margin: 0px auto 100px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.career-video {
+    width: 1100px;
+    height: 620px;
+    padding: 32px;
+    border: 2px solid rgba(13, 19, 33, 0.2);
+    /* Stroke color with 20% opacity */
+    border-radius: 16px;
+    box-sizing: border-box;
+    background-color: #e0f2ff;
+    /* Match your background if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+.career-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    /* Optional: inner rounding */
+}
+
+.target-card-Container {
+    display: flex;
+    justify-content: space-between;
+    width: 87.5%;
+    margin: 0px auto 100px auto;
+    gap: auto;
+}
+
+.target-card-Container {
+    margin-bottom: 200px;
+}
+
+.target-card {
+    padding: 40px 40px;
+    background-image: linear-gradient(#E6EDF9, #9DE5FF);
+    border-radius: 16px;
+    width: 364px;
+    height: 244px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.target-card a {
+    color: #0D1321;
+}
+
+.target-card img,
+.target-card h2 {
+    margin-bottom: 24px;
+}
+
+
+.footer {
+    height: 100px;
+    background-color: #FFFFFF60;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    font-size: 16px;
+}
+
+.footer img {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.footer-icon {
+    margin-right: 150px;
+}
+
+.footer-container {
+    background-color: #FFFFFF60;
+
+}
+
+.footer-massage p {
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    margin-left: 150px;
+}

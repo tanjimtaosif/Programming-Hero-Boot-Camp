@@ -1,0 +1,210 @@
+/* For Laptop 1025px-1200px */
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 20px 0;
+        margin-bottom: 80px;
+    }
+
+    .head h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .hope h1 {
+        font-size: 36px;
+    }
+
+    .hope p,
+    .webdev p,
+    .discuss p {
+        font-size: 14px;
+    }
+
+    .webdev h1 {
+        font-size: 24px;
+    }
+
+    .career-video {
+        width: 100%;
+        height: 480px;
+    }
+
+    .target-card-Container {
+        gap: 32px;
+    }
+
+    .target-card {
+        width: 300px;
+        height: auto;
+        padding: 24px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px;
+        gap: 16px;
+    }
+
+    .footer-icon {
+        margin-right: 0;
+    }
+
+    .footer-massage p {
+        margin-left: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+/* For Tablet 641px-1024px */
+@media screen and (max-width: 1024px) {
+    .header {
+        gap: 20px;
+        padding: 16px 0;
+    }
+
+    .btn {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .hope h1 {
+        font-size: 28px;
+    }
+
+    .webdev {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .career-video {
+        width: 100%;
+        height: 360px;
+        padding: 16px;
+    }
+
+    .target-card-Container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .target-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .discuss-container {
+        flex-direction: column-reverse;
+        padding: 32px 24px;
+    }
+
+    .discuss h2 {
+        font-size: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .footer-massage p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin: 0;
+    }
+}
+
+/* For Mobile 640px and below */
+@media screen and (max-width: 640px) {
+    .header {
+        gap: 16px;
+        padding: 12px 0;
+        margin-bottom: 60px;
+    }
+
+    .head h1 {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 8px 14px;
+        font-size: 10px;
+    }
+
+    .hope h1 {
+        font-size: 20px;
+    }
+
+    .hope p {
+        font-size: 12px;
+    }
+
+    .webdev {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .webdev h1 {
+        font-size: 20px;
+    }
+
+    .webdev p {
+        font-size: 12px;
+    }
+
+    .career-video {
+        width: 100%;
+        height: 240px;
+        padding: 10px;
+    }
+
+    .target-card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .discuss-container {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .discuss h2 {
+        font-size: 18px;
+    }
+
+    .discuss p {
+        font-size: 12px;
+    }
+
+    .footer {
+        flex-direction: column;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .footer-massage p {
+        font-size: 14px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-right: 0;
+    }
+
+    .developer-icon img {
+        width: 50%;
+    }
+
+    .developer img {
+        width: 50%;
+    }
+}
