@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            transition: 2s;
+            position: relative;
+            animation: rotataingsaw 2s infinite alternate;
+            animation-timing-function: ease-in;
+            border-radius: 50%;
+        }
+
+        /* .container:hover{
+            transform: translateX(600px) rotate(360deg);
+            background-color: brown;
+            border-radius: 50%;
+        } */
+        /* img {
+            margin: 200px; 
+            transition: 2s;
+            
+
+        } */
+
+        /* img:hover {
+            transform: rotate(360deg) scale(1.5);
+        } */
+
+        @keyframes rotataingsaw {
+            from {
+                top: 0px;
+                left: 0px;
+            }
+
+            to {
+                top: 500px;
+                left: 200px;
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+    <!-- <img src="saw.png" alt=""> -->
+</body>
+
+</html>
