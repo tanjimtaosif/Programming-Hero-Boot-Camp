@@ -1,28 +1,28 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 #mango {
     background: linear-gradient(150deg, yellow, yellowgreen);
-    max-width: fit-content;
     max-width: 900px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 40px;
     font-size: 100px;
+    text-align: center;
+    color: #333;
 }
 
-/* Tablet */
-/* 0-992 */
+/* Tablet: up to 992px */
 @media screen and (max-width: 992px) {
     #mango {
         background: linear-gradient(150deg, green, yellowgreen);
         font-size: 80px;
     }
-
 }
 
-/* Mobile device */
-/* 0-576 */
+/* Mobile: up to 576px */
 @media screen and (max-width: 576px) {
     #mango {
         background: linear-gradient(150deg, green, rgb(160, 255, 157));
