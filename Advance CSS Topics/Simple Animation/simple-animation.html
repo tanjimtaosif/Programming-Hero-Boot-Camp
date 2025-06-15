@@ -7,42 +7,25 @@
     <title>Document</title>
     <style>
         .container {
-            width: 200px;
-            height: 200px;
-            background-color: blue;
-            transition: 2s;
+            width: 120px;
+            height: 120px;
+            background-color: #6c63ff;
             position: relative;
-            animation: rotataingsaw 2s infinite alternate;
-            animation-timing-function: ease-in;
             border-radius: 50%;
+            animation: Ball 2s infinite alternate ease-in-out;
         }
 
-        /* .container:hover{
-            transform: translateX(600px) rotate(360deg);
-            background-color: brown;
-            border-radius: 50%;
-        } */
-        /* img {
-            margin: 200px; 
-            transition: 2s;
-            
-
-        } */
-
-        /* img:hover {
-            transform: rotate(360deg) scale(1.5);
-        } */
-
-        @keyframes rotataingsaw {
+        @keyframes Ball {
             from {
-                top: 0px;
-                left: 0px;
+                top: 0;
+                left: 0;
+                background-color: #6c63ff;
             }
 
             to {
-                top: 500px;
-                left: 200px;
-                background-color: brown;
+                top: 400px;
+                left: 150px;
+                background-color: #ff6b6b;
             }
         }
     </style>
@@ -50,7 +33,6 @@
 
 <body>
     <div class="container"></div>
-    <!-- <img src="saw.png" alt=""> -->
 </body>
 
 </html>

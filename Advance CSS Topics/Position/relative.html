@@ -7,6 +7,16 @@
     <title>Document</title>
     <link rel="shortcut icon" href="https://img.icons8.com/?size=48&id=11935&format=png" type="image/x-icon">
     <style>
+        p {
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            text-align: justify;
+        }
+
         .container {
             width: 300px;
             height: 300px;
@@ -14,18 +24,19 @@
             position: relative;
             top: 30px;
             left: 50px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
         }
     </style>
 </head>
 
 <body>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sed vitae iusto dolorem repudiandae pariatur placeat
-        nihil blanditiis assumenda, quae omnis quidem eius fuga doloribus molestias. Corrupti ut modi perspiciatis.
-        Fugiat, consequuntur illum. Aliquid officiis quas rerum, eaque voluptates obcaecati repellendus unde doloribus
-        velit reprehenderit esse, a dolores similique ratione. Laborum itaque quas animi aut maxime atque nihil quisquam
-        cupiditate fugiat in. Et vitae ipsam necessitatibus qui saepe libero corporis sint. Ad omnis explicabo minus
-        doloribus, nam, accusamus, tenetur provident consectetur iste libero similique perspiciatis. Eveniet consectetur
-        ullam asperiores nulla aspernatur eius animi facere numquam, iure ad fugit, itaque quidem!</p>
+    <p>In this code, the .container div uses position: relative, which means it is positioned relative to its normal
+        (static) position in the document flow. The properties top: 30px and left: 50px shift the box 30 pixels down and
+        50 pixels to the right from where it would normally appear. Unlike absolute or fixed positioning, a relative
+        element still occupies its original space in the layout, but visually moves without affecting the position of
+        surrounding elements. This makes it useful for slight visual adjustments or as a reference point for absolutely
+        positioned child elements.</p>
 
     <div class="container">
 

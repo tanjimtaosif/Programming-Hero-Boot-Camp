@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #container{
-            width: 400px;
-            height: 400px;
-            background-color: red;
-            margin: 100px;
-            /* transform: translate(80px); */
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-        #container:hover{
+
+        #container {
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+            transition: transform 0.6s ease;
+        }
+
+        #container:hover {
             transform: translateX(90px) translateY(80px) rotate(50deg);
         }
     </style>
-        
+
 </head>
+
 <body>
     <div id="container"></div>
 </body>
+
 </html>
