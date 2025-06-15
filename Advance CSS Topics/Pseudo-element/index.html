@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Enhanced Heading</title>
     <style>
-        h1::before{
-            /* content: url(img.png); */
-            content: "Hello!";
-            color: rgb(169, 8, 62);
-            background-color: yellowgreen;
-            display: block;
+        body {
+            text-align: center;
         }
-        h1::after{
-            content: "Goodbye";
-            background-color: blue;
+
+        h1::before {
+            content: "Hello!";
             display: block;
+            font-size: 20px;
+            color: white;
+            background-color: yellowgreen;
+            padding: 6px 12px;
+            border-radius: 6px 6px 0 0;
+        }
+
+        h1::after {
+            content: "Goodbye!";
+            display: block;
+            font-size: 20px;
+            color: white;
+            background-color: skyblue;
+            padding: 6px 12px;
+            border-radius: 0 0 6px 6px;
         }
     </style>
 </head>
+
 <body>
-    <h1>I am heading</h1>
+    <h1>I am a heading</h1>
 </body>
+
 </html>
